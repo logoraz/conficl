@@ -1,4 +1,4 @@
-# config-cl - Common Lisp Environment Configuration 
+# conficl - Common Lisp Dev Environment Configuration 
 
 Personal configuration to setup and store my Common Lisp Environment.
 
@@ -9,11 +9,11 @@ Personal configuration to setup and store my Common Lisp Environment.
 
 ## TODOs (Wish List)
 
-  - TBD
-  - TBD
+ - TBD
+ - TBD
 
    
 ## References:
 
-  - TBD
-  - TBD
+ - TBD
+ - TBD

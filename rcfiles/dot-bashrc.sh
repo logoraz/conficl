@@ -24,37 +24,13 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+# User specific configurations (add --> .bashrc.d)
 
-#
-# Customizations
-#
-
-# General Env
-export LC_COLLATE=C
-export EDITOR=Lem
-export BROWSER=Nyxt
-
-# XDG Env
-export XDG_CONFIG_HOME=$HOME/.config
-export XDG_DATA_HOME=$HOME/.local/share
-
-# Aliases
+## Aliases
 alias ll='ls -l'
 alias la='ls -la'
 
-
-#
-# PATHS
-#
-
-#Qlot Source
-qlot=$HOME/.qlot/bin
-
-# Lem Source
-lem=$XDG_DATA_HOME/common-lisp/lem
-
-# Common Lisp Development and Lem Hacking!
-export PATH="$qlot:$lem:$PATH"
+## Custom Prompt
 
 
-
+## Custom Functions
