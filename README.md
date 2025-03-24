@@ -1,4 +1,4 @@
-# conficl - Common Lisp Dev Environment Configuration 
+# conficl - Common Lisp Environment Configuration 
 
 Personal configuration to setup and store my Common Lisp Environment.
 
