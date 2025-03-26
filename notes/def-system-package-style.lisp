@@ -42,17 +42,17 @@
 
 
 ;;; System Template Style Guide
-(defpackage :foo/bar
-  (:use :cl
-        :foo/bar/baz
-        :foo/qux/quux)
-  (:import-from :hoge)
-  (:import-from :foo/corge
+(defpackage #:foo/bar
+  (:use #:cl
+        #:foo/bar/baz
+        #:foo/qux/quux)
+  (:import-from #:hoge)
+  (:import-from #:foo/corge
                 #:sym1
                 #:sym2)
-  (:shadow :piyo)
-  (:shadowing-import-from :foo/corge
-                          :thud)
+  (:shadow #:piyo)
+  (:shadowing-import-from #:foo/corge
+                          #:thud)
   (:export #:foobar
            #:grault
            #:garply
