@@ -8,17 +8,17 @@
   ;;use ocicl to load external libraries if needed
   )
 
-(defpackage :conficl/setup
-  (:use :cl
-        :uiop
+(defpackage #:conficl/setup
+  (:use #:cl
+        #:uiop
         #+sbcl
-        :sb-posix)
-  (:import-from :foo 
+        #:sb-posix)
+  (:import-from #:foo 
                 #:bar 
                 #:baz
                 #:qux)
   (:export #:tbd))
-(in-package :conficl/setup)
+(in-package #:conficl/setup)
 
 
 (defconstant +cl-path+ (uiop:xdg-config-home #p"common-lisp"))
