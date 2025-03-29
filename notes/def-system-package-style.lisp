@@ -58,3 +58,7 @@
            #:garply
            #:waldo
            #:orr))
+
+#+nil
+(defun foo (bar baz)
+  "Example of how to commented out sexp ")

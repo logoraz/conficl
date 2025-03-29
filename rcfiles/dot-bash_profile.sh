@@ -9,8 +9,10 @@ fi
 
 ## General Env
 export LC_COLLATE=C
-export EDITOR=lem
-export BROWSER=nyxt
+export EDITOR=emacs
+export BROWSER=zen
+#export EDITOR=lem
+# export BROWSER=nyxt
 
 ## XDG Env
 export XDG_CONFIG_HOME=$HOME/.config
